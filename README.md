@@ -30,7 +30,7 @@ height | number | 对应 `CSS` 中的 `height` 属性
 ### Positioning 定位
 属性名 | 取值 | 描述
 ---|---|---
-position | absolute/relative | 对应 `CSS` 中的 `position` 属性，但取值有变化
+position | absolute/relative | 对应 `CSS` 中的 `position` 属性，但阉割了 `static/fixed` 取值
 top | number | 对应 `CSS` 中的 `top` 属性
 right | number | 对应 `CSS` 中的 `right` 属性
 bottom | number | 对应 `CSS` 中的 `bottom` 属性
