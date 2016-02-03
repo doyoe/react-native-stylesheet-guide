@@ -32,6 +32,6 @@ height | number | 对应 `CSS` 中的 `height` 属性
 ---|---|---
 position | absolute/relative | 对应 `CSS` 中的 `position` 属性，但取值有变化
 top | number | 对应 `CSS` 中的 `top` 属性
-right | number | 对应 `CSS` 中的 `top` 属性
-bottom | number | 对应 `CSS` 中的 `top` 属性
-left | number | 对应 `CSS` 中的 `top` 属性
+right | number | 对应 `CSS` 中的 `right` 属性
+bottom | number | 对应 `CSS` 中的 `bottom` 属性
+left | number | 对应 `CSS` 中的 `left` 属性
