@@ -16,7 +16,7 @@
         * [BorderWidth 边框厚度](#user-content-border-width)
         * [Flex 弹性盒](#user-content-flex)
 * [Values 取值](#user-content-values)
-    * [Color 颜色](user-content-color)
+    * [Color 颜色](#user-content-color)
 
 
 <a name="properties"></a>
