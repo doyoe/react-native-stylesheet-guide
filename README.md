@@ -12,7 +12,7 @@
     * [Positioning 定位](#user-content-positioning)
     * [Margin 外部白](#user-content-margin)
     * [Padding 内补白](#user-content-padding)
-    * [Border 边框](#user-content-border)
+    * [BorderWidth 边框厚度](#user-content-border-width)
     * [Flex 弹性盒](#user-content-flex)
 
 
@@ -60,7 +60,7 @@ paddingRight | number | 对应 `CSS` 中的 `padding-right` 属性
 paddingBottom | number | 对应 `CSS` 中的 `padding-bottom` 属性
 paddingLeft | number | 对应 `CSS` 中的 `padding-left` 属性
 
-<a name="border"></a>
+<a name="border-width"></a>
 ### BorderWidth 边框厚度
 属性名 | 取值 | 描述
 ---|---|---
