@@ -47,3 +47,15 @@ marginTop | number | 对应 `CSS` 中的 `margin-top` 属性
 marginRight | number | 对应 `CSS` 中的 `margin-right` 属性
 marginBottom | number | 对应 `CSS` 中的 `margin-bottom` 属性
 marginLeft | number | 对应 `CSS` 中的 `margin-left` 属性
+
+<a name="padding"></a>
+### Padding 内部白
+属性名 | 取值 | 描述
+---|---|---
+padding | number | 对应 `CSS` 中的 `padding` 属性
+paddingHorizontal | number | `CSS`中没有对应的属性，相当于同时设置paddingRight和paddingLeft
+paddingVertical | number | `CSS`中没有对应的属性，相当于同时设置paddingTop和paddingBottom
+paddingTop | number | 对应 `CSS` 中的 `padding-top` 属性
+paddingRight | number | 对应 `CSS` 中的 `padding-right` 属性
+paddingBottom | number | 对应 `CSS` 中的 `padding-bottom` 属性
+paddingLeft | number | 对应 `CSS` 中的 `padding-left` 属性
