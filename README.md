@@ -9,9 +9,9 @@
 * [Text](#user-content-view)
 * [Layout 布局](#user-content-layout)
     * [Dimension 尺寸](#user-content-dimension)
+    * [Positioning 定位](#user-content-positioning)
     * [Margin 外部白](#user-content-margin)
     * [Padding 内补白](#user-content-padding)
-    * [Positioning 定位](#user-content-positioning)
     * [Border 边框](#user-content-border)
     * [Flex 弹性盒](#user-content-flex)
 
@@ -59,3 +59,13 @@ paddingTop | number | 对应 `CSS` 中的 `padding-top` 属性
 paddingRight | number | 对应 `CSS` 中的 `padding-right` 属性
 paddingBottom | number | 对应 `CSS` 中的 `padding-bottom` 属性
 paddingLeft | number | 对应 `CSS` 中的 `padding-left` 属性
+
+<a name="border"></a>
+### BorderWidth 边框厚度
+属性名 | 取值 | 描述
+---|---|---
+borderWidth | number | 对应 `CSS` 中的 `border-width` 属性
+borderTopWidth | number | 对应 `CSS` 中的 `border-top-width` 属性
+borderRightWidth | number | 对应 `CSS` 中的 `border-right-width` 属性
+borderBottomWidth | number | 对应 `CSS` 中的 `border-bottom-width` 属性
+borderLeftWidth | number | 对应 `CSS` 中的 `border-left-width` 属性
