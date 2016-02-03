@@ -94,4 +94,4 @@ alignSelf | auto/flex-start/flex-end/center/stretch | 对应 `CSS` 中的 `align
 <a name="color"></a>
 ### Color 颜色
 
-`React-Native` 支持了 `CSS Color`中的 [基本颜色关键字](http://css.doyoe.com/appendix/color-keywords.htm#basic) 和 [拓展颜色关键字](http://css.doyoe.com/appendix/color-keywords.htm#extended)；
+`React-Native` 支持了 `CSS Color`中的 [基本颜色关键字](http://css.doyoe.com/appendix/color-keywords.htm#basic) 和 [拓展颜色关键字](http://css.doyoe.com/appendix/color-keywords.htm#extended)，但并未支持 [28个系统颜色](http://css.doyoe.com/appendix/color-keywords.htm#system)；
