@@ -21,7 +21,7 @@
 
 <a name="dimension"></a>
 ### Dimension 尺寸
-属性名 | 取值
+属性名 | 取值 | 描述
 ---|---
-width | number
-height | number
+width | number | 对应 `CSS` 中的 `width` 属性
+height | number | 对应 `CSS` 中的 `height` 属性
