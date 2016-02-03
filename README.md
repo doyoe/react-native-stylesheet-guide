@@ -8,7 +8,6 @@
     * [view](#user-content-view)
     * [Image](#user-content-view)
     * [Text 文本](#user-content-text)
-
     * [Layout 布局](#user-content-layout)
         * [Dimension 尺寸](#user-content-dimension)
         * [Positioning 定位](#user-content-positioning)
@@ -22,6 +21,16 @@
 
 <a name="properties"></a>
 ## Properties 属性
+
+<a name="text"></a>
+### Text 文本
+属性名 | 取值 | 描述
+---|---|---
+fontFamily | string | 对应 `CSS` 中的 `font-family` 属性
+fontSize | number | 对应 `CSS` 中的 `font-size` 属性
+fontStyle | normal/italic | 对应 `CSS` 中的 `font-style` 属性，但阉割了 `oblique` 取值
+fontWeight | normal/bold/100/200/300/400/500/600/700/800/900 | 对应 `CSS` 中的 `font-weight` 属性，但阉割了 `bolder/lighter` 取值
+lineHeight | number | 对应 `CSS` 中的 `line-height` 属性
 
 <a name="layout"></a>
 ### Layout 布局
