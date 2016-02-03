@@ -4,30 +4,36 @@
 
 ## 目录
 
-* [view](#user-content-view)
-* [Image](#user-content-view)
-* [Text](#user-content-view)
-* [Layout 布局](#user-content-layout)
-    * [Dimension 尺寸](#user-content-dimension)
-    * [Positioning 定位](#user-content-positioning)
-    * [Margin 外部白](#user-content-margin)
-    * [Padding 内补白](#user-content-padding)
-    * [BorderWidth 边框厚度](#user-content-border-width)
-    * [Flex 弹性盒](#user-content-flex)
+* [Properties 属性](#user-content-properties)
+    * [view](#user-content-view)
+    * [Image](#user-content-view)
+    * [Text](#user-content-view)
+    * [Layout 布局](#user-content-layout)
+        * [Dimension 尺寸](#user-content-dimension)
+        * [Positioning 定位](#user-content-positioning)
+        * [Margin 外部白](#user-content-margin)
+        * [Padding 内补白](#user-content-padding)
+        * [BorderWidth 边框厚度](#user-content-border-width)
+        * [Flex 弹性盒](#user-content-flex)
+* [Values 取值](#user-content-values)
+    * [Color 颜色](user-content-color)
 
+
+<a name="properties"></a>
+## Properties 属性
 
 <a name="layout"></a>
-## Layout 布局
+### Layout 布局
 
 <a name="dimension"></a>
-### Dimension 尺寸
+#### Dimension 尺寸
 属性名 | 取值 | 描述
 ---|---|---
 width | number | 对应 `CSS` 中的 `width` 属性
 height | number | 对应 `CSS` 中的 `height` 属性
 
 <a name="positioning"></a>
-### Positioning 定位
+#### Positioning 定位
 属性名 | 取值 | 描述
 ---|---|---
 position | absolute/relative | 对应 `CSS` 中的 `position` 属性，但阉割了 `static/fixed` 取值
@@ -37,7 +43,7 @@ bottom | number | 对应 `CSS` 中的 `bottom` 属性
 left | number | 对应 `CSS` 中的 `left` 属性
 
 <a name="margin"></a>
-### Margin 外部白
+#### Margin 外部白
 属性名 | 取值 | 描述
 ---|---|---
 margin | number | 对应 `CSS` 中的 `margin` 属性
@@ -49,7 +55,7 @@ marginBottom | number | 对应 `CSS` 中的 `margin-bottom` 属性
 marginLeft | number | 对应 `CSS` 中的 `margin-left` 属性
 
 <a name="padding"></a>
-### Padding 内部白
+#### Padding 内部白
 属性名 | 取值 | 描述
 ---|---|---
 padding | number | 对应 `CSS` 中的 `padding` 属性
@@ -61,7 +67,7 @@ paddingBottom | number | 对应 `CSS` 中的 `padding-bottom` 属性
 paddingLeft | number | 对应 `CSS` 中的 `padding-left` 属性
 
 <a name="border-width"></a>
-### BorderWidth 边框厚度
+#### BorderWidth 边框厚度
 属性名 | 取值 | 描述
 ---|---|---
 borderWidth | number | 对应 `CSS` 中的 `border-width` 属性
@@ -71,7 +77,7 @@ borderBottomWidth | number | 对应 `CSS` 中的 `border-bottom-width` 属性
 borderLeftWidth | number | 对应 `CSS` 中的 `border-left-width` 属性
 
 <a name="flex"></a>
-### Flex 弹性盒
+#### Flex 弹性盒
 属性名 | 取值 | 描述
 ---|---|---
 flex | number | 对应 `CSS` 中的 `flex` 属性
