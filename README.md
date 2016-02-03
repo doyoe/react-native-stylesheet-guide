@@ -23,5 +23,15 @@
 ### Dimension 尺寸
 属性名 | 取值 | 描述
 ---|---|---
-width | number | 对应`CSS`中的`width`属性
-height | number | 对应`CSS`中的`height`属性
+width | number | 对应 `CSS` 中的 `width` 属性
+height | number | 对应 `CSS` 中的 `height` 属性
+
+<a name="positioning"></a>
+### Positioning 定位
+属性名 | 取值 | 描述
+---|---|---
+position | absolute/relative | 对应 `CSS` 中的 `position` 属性，但取值有变化
+top | number | 对应 `CSS` 中的 `top` 属性
+right | number | 对应 `CSS` 中的 `top` 属性
+bottom | number | 对应 `CSS` 中的 `top` 属性
+left | number | 对应 `CSS` 中的 `top` 属性
