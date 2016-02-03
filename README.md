@@ -86,3 +86,9 @@ flexWrap | wrap/nowrap | 对应 `CSS` 中的 `flex-wrap` 属性，但阉割了 `
 justifyContent | flex-start/flex-end/center/space-between/space-around | 对应 `CSS` 中的 `justify-content` 属性，但阉割了 `stretch` 取值
 alignItems | flex-start/flex-end/center/stretch | 对应 `CSS` 中的 `align-items` 属性，但阉割了 `baseline` 取值
 alignSelf | auto/flex-start/flex-end/center/stretch | 对应 `CSS` 中的 `align-self` 属性，但阉割了 `baseline` 取值
+
+<a name="values"></a>
+## Valuse 取值
+
+<a name="color"></a>
+### Color 颜色
