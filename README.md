@@ -35,3 +35,15 @@ top | number | 对应 `CSS` 中的 `top` 属性
 right | number | 对应 `CSS` 中的 `right` 属性
 bottom | number | 对应 `CSS` 中的 `bottom` 属性
 left | number | 对应 `CSS` 中的 `left` 属性
+
+<a name="margin"></a>
+### Margin 外部白
+属性名 | 取值 | 描述
+---|---|---
+margin | number | 对应 `CSS` 中的 `margin` 属性
+marginHorizontal | number | `CSS`中没有对应的属性，相当于同时设置marginRight和marginLeft
+marginVertical | number | `CSS`中没有对应的属性，相当于同时设置marginTop和marginBottom
+marginTop | number | 对应 `CSS` 中的 `margin-top` 属性
+marginRight | number | 对应 `CSS` 中的 `margin-right` 属性
+marginBottom | number | 对应 `CSS` 中的 `margin-bottom` 属性
+marginLeft | number | 对应 `CSS` 中的 `margin-left` 属性
