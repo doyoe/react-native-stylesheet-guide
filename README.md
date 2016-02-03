@@ -7,14 +7,15 @@
 * [Properties 属性](#user-content-properties)
     * [view](#user-content-view)
     * [Image](#user-content-view)
-    * [Text](#user-content-view)
+    * [Text 文本](#user-content-text)
+
     * [Layout 布局](#user-content-layout)
         * [Dimension 尺寸](#user-content-dimension)
         * [Positioning 定位](#user-content-positioning)
         * [Margin 外部白](#user-content-margin)
         * [Padding 内补白](#user-content-padding)
         * [BorderWidth 边框厚度](#user-content-border-width)
-        * [Flex 弹性盒](#user-content-flex)
+        * [Flexbox 弹性盒](#user-content-flexbox)
 * [Values 取值](#user-content-values)
     * [Color 颜色](#user-content-color)
 
@@ -76,8 +77,8 @@ borderRightWidth | number | 对应 `CSS` 中的 `border-right-width` 属性
 borderBottomWidth | number | 对应 `CSS` 中的 `border-bottom-width` 属性
 borderLeftWidth | number | 对应 `CSS` 中的 `border-left-width` 属性
 
-<a name="flex"></a>
-#### Flex 弹性盒
+<a name="flexbox"></a>
+#### Flexbox 弹性盒
 属性名 | 取值 | 描述
 ---|---|---
 flex | number | 对应 `CSS` 中的 `flex` 属性
@@ -105,4 +106,4 @@ alignSelf | auto/flex-start/flex-end/center/stretch | 对应 `CSS` 中的 `align
 * `hsl(360, 100%, 100%)`
 * `hsla(360, 100%, 100%, 0.9)`
 * `transparent`
-* `Color Name`：支持了 [基本颜色关键字](http://css.doyoe.com/appendix/color-keywords.htm#basic) 和 [拓展颜色关键字](http://css.doyoe.com/appendix/color-keywords.htm#extended)，不支持 [28个系统颜色](http://css.doyoe.com/appendix/color-keywords.htm#system)；
+* `Color Name`：支持了 [基本颜色关键字](http://css.doyoe.com/appendix/color-keywords.htm#basic) 和 [拓展颜色关键字](http://css.doyoe.com/appendix/color-keywords.htm#extended)，但不支持 [28个系统颜色](http://css.doyoe.com/appendix/color-keywords.htm#system)；
