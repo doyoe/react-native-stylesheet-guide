@@ -117,10 +117,10 @@ alignSelf | auto/flex-start/flex-end/center/stretch | 对应 `CSS` 中的 `align
 
 `React-Native` 支持了 `CSS` 中大部分的颜色类型：
 
-* `#f00 (#rgb)`
-* `#f00c (#rgba)`：`CSS` 中无对应的值
-* `#ff0000 (#rrggbb)`
-* `#ff0000cc (#rrggbbaa)`：`CSS` 中无对应的值
+* `#f00` (#rgb)
+* `#f00c` (#rgba)：`CSS` 中无对应的值
+* `#ff0000` (#rrggbb)
+* `#ff0000cc` (#rrggbbaa)：`CSS` 中无对应的值
 * `rgb(255, 0, 0)`
 * `rgba(255, 0, 0, 0.9)`
 * `hsl(360, 100%, 100%)`
