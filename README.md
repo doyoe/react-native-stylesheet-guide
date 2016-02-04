@@ -1,6 +1,6 @@
 # React-Native StyleSheet Guide
 
-`React-Native` 支持的样式相当于是 `CSS` 的一个子集，并且属性名不完全一致，所以当你开始在编写 `React-Native` 之前，可以先简要了解一下。
+`React-Native` 的样式基本上是实现了一个 `CSS` 的一个子集，并且属性名不完全一致，所以当你开始在编写 `React-Native` 之前，可以先简要了解一下。
 
 ## 目录
 
