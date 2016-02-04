@@ -31,7 +31,7 @@
 ---|---|---
 color | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 [color](http://css.doyoe.com/properties/color/color.htm) 属性
 fontFamily | string | 对应 `CSS` 中的 [font-family](http://css.doyoe.com/properties/font/font-family.htm) 属性
-fontSize | number | 对应 `CSS` 中的 [font-size](http://css.doyoe.com/properties/font/font-size.htm) 属性
+fontSize [&lt;number&gt;](#user-content-number) 对应 `CSS` 中的 [font-size](http://css.doyoe.com/properties/font/font-size.htm) 属性
 fontStyle | `normal`, `italic` | 对应 `CSS` 中的 [font-style](http://css.doyoe.com/properties/font/font-style.htm) 属性，但阉割了 `oblique` 取值
 fontWeight | `normal`, `bold` `100~900` | 对应 `CSS` 中的 [font-weight](http://css.doyoe.com/properties/font/font-weight.htm) 属性，但阉割了 `bolder, lighter` 取值
 lineHeight | number | 对应 `CSS` 中的 [line-height](http://css.doyoe.com/properties/text/line-height.htm) 属性
