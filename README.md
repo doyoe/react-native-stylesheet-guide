@@ -26,7 +26,7 @@
 ### Text 文本
 属性名 | 取值 | 描述
 ---|---|---
-color | color | 对应 `CSS` 中的 `color` 属性
+color | color | 对应 `CSS` 中的 [color](http://css.doyoe.com/properties/color/color.htm) 属性
 fontFamily | string | 对应 `CSS` 中的 `font-family` 属性
 fontSize | number | 对应 `CSS` 中的 `font-size` 属性
 fontStyle | normal/italic | 对应 `CSS` 中的 `font-style` 属性，但阉割了 `oblique` 取值
@@ -34,8 +34,8 @@ fontWeight | normal/bold/100~900 | 对应 `CSS` 中的 `font-weight` 属性，�
 lineHeight | number | 对应 `CSS` 中的 `line-height` 属性
 textAlign | auto/left/right/center/justify<sup>`iOS`</sup> | 对应 `CSS` 中的 `text-align` 属性，增加了 `auto` 取值
 textAlignVertical | auto/top/bottom/center | 对应 `CSS` 中的 [vertical-align](http://css.doyoe.com/properties/text/vertical-align.htm) 属性，增加了 `auto` 取值，`center` 取代了 `middle`，并阉割了 `baseline/sub` 等值
-textShadowColor | color | 对应 `CSS` 中的 `text-shadow` 属性中的颜色定义
-textShadowOffset | {width: number, height: number} | 对应 `CSS` 中的 `text-shadow` 属性中的阴影偏移定义
+textShadowColor | color | 对应 `CSS` 中的 [text-shadow](http://css.doyoe.com/properties/text-decoration/text-shadow.htm) 属性中的颜色定义
+textShadowOffset | {width: number, height: number} | 对应 `CSS` 中的 [text-shadow](http://css.doyoe.com/properties/text-decoration/text-shadow.htm) 属性中的阴影偏移定义
 textShadowRadius | number | 在 `CSS` 中，阴影的圆角大小取决于元素的圆角定义，不需要额外定义
 textAlign | auto/left/right/center/justify<sup>`iOS`</sup> | 对应 `CSS` 中的 `text-align` 属性，但却多了 `auto` 取值
 textAlign | auto/left/right/center/justify<sup>`iOS`</sup> | 对应 `CSS` 中的 `text-align` 属性，但却多了 `auto` 取值
