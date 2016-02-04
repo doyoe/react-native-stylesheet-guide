@@ -17,6 +17,7 @@
     * [Other 其他](#user-content-other)
 * [Values 取值](#user-content-values)
     * [Color 颜色](#user-content-color)
+    * [number 数值](#user-content-number)
 * [Units 单位](#user-content-units)
     * [pt 点](#user-content-pt)
 
@@ -167,6 +168,8 @@ tintColor<sup>`iOS`</sup> | [&lt;color&gt;](#user-content-color) | `CSS`中没�
 * `transparent`
 * `Color Name`：支持了 [基本颜色关键字](http://css.doyoe.com/appendix/color-keywords.htm#basic) 和 [拓展颜色关键字](http://css.doyoe.com/appendix/color-keywords.htm#extended)，但不支持 [28个系统颜色](http://css.doyoe.com/appendix/color-keywords.htm#system)；
 
+<a name="number"></a>
+### Number 数值
 
 <a name="units"></a>
 ## Units 单位
