@@ -188,3 +188,5 @@ var styles = StyleSheet.create({
     }
 });
 ```
+
+未完待续。。。
