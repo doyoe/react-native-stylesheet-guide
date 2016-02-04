@@ -106,6 +106,10 @@ borderTopLeftRadius | number | 对应 `CSS` 中的 `border-top-left-radius` 属�
 borderTopRightRadius | number | 对应 `CSS` 中的 `border-top-right-radius` 属性
 borderBottomLeftRadius | number | 对应 `CSS` 中的 `border-bottom-left-radius` 属性
 borderBottomRightRadius | number | 对应 `CSS` 中的 `border-bottom-right-radius` 属性
+shadowColor | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 [box-shadow](http://css.doyoe.com/properties/border/box-shadow.htm) 属性中的颜色定义
+shadowOffset | {width: number, height: number} | 对应 `CSS` 中的 [box-shadow](http://css.doyoe.com/properties/border/box-shadow.htm) 属性中的阴影偏移定义
+shadowRadius | number | 在 `CSS` 中，阴影的圆角大小取决于元素的圆角定义，不需要额外定义
+shadowOpacity | number | 对应 `CSS` 中的 [box-shadow](http://css.doyoe.com/properties/border/box-shadow.htm) 属性中的阴影透明度定义
 
 <a name="background"></a>
 ### Background 背景
