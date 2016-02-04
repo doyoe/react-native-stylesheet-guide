@@ -179,12 +179,7 @@ tintColor<sup>`iOS`</sup> | [&lt;color&gt;](#user-content-color) | `CSS`中没�
 在 `React-Native` 中，并不支持百分比单位，目前只支持一种单位，即 `pt` 绝对长度单位，同时，你在定义时不需要加单位，例如：
 
 ```
-var styles = StyleSheet.create({
-    box: {
-        width: 100,
-        height: 50
-    }
-});
+<View style={{width: 100, height: 50}}></View>
 ```
 
 ```
