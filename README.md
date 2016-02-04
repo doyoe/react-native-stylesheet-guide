@@ -12,7 +12,7 @@
     * [Positioning 定位](#user-content-positioning)
     * [Margin 外部白](#user-content-margin)
     * [Padding 内补白](#user-content-padding)
-    * [BorderWidth 边框厚度](#user-content-border-width)
+    * [Border 边框](#user-content-border)
     * [Flexbox 弹性盒](#user-content-flexbox)
 * [Values 取值](#user-content-values)
     * [Color 颜色](#user-content-color)
@@ -83,8 +83,8 @@ paddingRight | number | 对应 `CSS` 中的 `padding-right` 属性
 paddingBottom | number | 对应 `CSS` 中的 `padding-bottom` 属性
 paddingLeft | number | 对应 `CSS` 中的 `padding-left` 属性
 
-<a name="border-width"></a>
-### BorderWidth 边框厚度
+<a name="border"></a>
+### Border 边框
 属性名 | 取值 | 描述
 ---|---|---
 borderWidth | number | 对应 `CSS` 中的 `border-width` 属性
@@ -92,6 +92,11 @@ borderTopWidth | number | 对应 `CSS` 中的 `border-top-width` 属性
 borderRightWidth | number | 对应 `CSS` 中的 `border-right-width` 属性
 borderBottomWidth | number | 对应 `CSS` 中的 `border-bottom-width` 属性
 borderLeftWidth | number | 对应 `CSS` 中的 `border-left-width` 属性
+borderColor | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 `border-color` 属性
+borderTopColor | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 `border-top-color` 属性
+borderRightColor | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 `border-right-color` 属性
+borderBottomColor | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 `border-bottom-color` 属性
+borderLeftColor | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 `border-left-color` 属性
 
 <a name="flexbox"></a>
 ### Flexbox 弹性盒
