@@ -97,6 +97,11 @@ borderTopColor | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 `bor
 borderRightColor | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 `border-right-color` 属性
 borderBottomColor | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 `border-bottom-color` 属性
 borderLeftColor | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 `border-left-color` 属性
+borderRadius | number | 对应 `CSS` 中的 `border-radius` 属性
+borderTopLeftRadius | number | 对应 `CSS` 中的 `border-top-left-radius` 属性
+borderTopRightRadius | number | 对应 `CSS` 中的 `border-top-right-radius` 属性
+borderBottomLeftRadius | number | 对应 `CSS` 中的 `border-bottom-left-radius` 属性
+borderBottomRightRadius | number | 对应 `CSS` 中的 `border-bottom-right-radius` 属性
 
 <a name="flexbox"></a>
 ### Flexbox 弹性盒
