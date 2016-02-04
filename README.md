@@ -40,8 +40,8 @@ textShadowRadius | number | 在 `CSS` 中，阴影的圆角大小取决于元素
 letterSpacing<sup>`iOS`</sup> | number | 对应 `CSS` 中的 [letter-spacing](http://css.doyoe.com/properties/text/letter-spacing.htm) 属性，但取值不同
 textDecorationColor<sup>`iOS`</sup> | color | 对应 `CSS` 中的 [text-decoration-color](http://css.doyoe.com/properties/text-decoration/text-decoration-color.htm) 属性
 textDecorationLine<sup>`iOS`</sup> | `none`, `underline`, `line-through`, `underline line-through` | 对应 `CSS` 中的 [text-decoration-line](http://css.doyoe.com/properties/text-decoration/text-decoration-line.htm) 属性，取值略有不同
-textDecorationStyle<sup>`iOS`</sup> | 'solid', 'double', 'dotted', 'dashed' | 对应 `CSS` 中的 [text-decoration-style](http://css.doyoe.com/properties/text-decoration/text-decoration-style.htm) 属性，但阉割了 `wavy` 取值
-writingDirection<sup>`iOS`</sup> | color | 对应 `CSS` 中的 [text-decoration-color](http://css.doyoe.com/properties/text-decoration/text-decoration-color.htm) 属性
+textDecorationStyle<sup>`iOS`</sup> | `solid`, `double`, `dotted`, `dashed` | 对应 `CSS` 中的 [text-decoration-style](http://css.doyoe.com/properties/text-decoration/text-decoration-style.htm) 属性，但阉割了 `wavy` 取值
+writingDirection<sup>`iOS`</sup> | `auto`, `ltr`, `rtl` | 对应 `CSS` 中的 [direction](http://css.doyoe.com/properties/writing-modes/direction.htm) 属性，增加了 `auto` 取值
 
 <a name="layout"></a>
 ### Layout 布局
