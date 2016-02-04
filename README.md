@@ -130,11 +130,11 @@ backfaceVisibility | `visible`, `hidden` | 对应 `CSS` 中的 `backface-visibil
 属性名 | 取值 | 描述
 ---|---|---
 flex | number | 对应 `CSS` 中的 `flex` 属性
-flexDirection | row/column | 对应 `CSS` 中的 `flex-direction` 属性，但阉割了 `row-reverse, column-reverse` 取值
-flexWrap | wrap/nowrap | 对应 `CSS` 中的 `flex-wrap` 属性，但阉割了 `wrap-reverse` 取值
-justifyContent | flex-start/flex-end/center/space-between/space-around | 对应 `CSS` 中的 `justify-content` 属性，但阉割了 `stretch` 取值
-alignItems | flex-start/flex-end/center/stretch | 对应 `CSS` 中的 `align-items` 属性，但阉割了 `baseline` 取值
-alignSelf | auto/flex-start/flex-end/center/stretch | 对应 `CSS` 中的 `align-self` 属性，但阉割了 `baseline` 取值
+flexDirection | `row`, `column` | 对应 `CSS` 中的 `flex-direction` 属性，但阉割了 `row-reverse, column-reverse` 取值
+flexWrap | `wrap`, `nowrap` | 对应 `CSS` 中的 `flex-wrap` 属性，但阉割了 `wrap-reverse` 取值
+justifyContent | `flex-start`, `flex-end`, `center`, `space-between`, `space-around` | 对应 `CSS` 中的 `justify-content` 属性，但阉割了 `stretch` 取值
+alignItems | `flex-start`, `flex-end`, `center`, `stretch` | 对应 `CSS` 中的 `align-items` 属性，但阉割了 `baseline` 取值
+alignSelf | `auto`, `flex-start`, `flex-end`, `center`, `stretch` | 对应 `CSS` 中的 `align-self` 属性，但阉割了 `baseline` 取值
 
 <a name="other"></a>
 ### Other 其他
