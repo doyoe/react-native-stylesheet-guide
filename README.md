@@ -13,6 +13,7 @@
     * [Margin 外部白](#user-content-margin)
     * [Padding 内补白](#user-content-padding)
     * [Border 边框](#user-content-border)
+    * [Background 背景](#user-content-background)
     * [Flexbox 弹性盒](#user-content-flexbox)
 * [Values 取值](#user-content-values)
     * [Color 颜色](#user-content-color)
@@ -103,6 +104,12 @@ borderTopLeftRadius | number | 对应 `CSS` 中的 `border-top-left-radius` 属�
 borderTopRightRadius | number | 对应 `CSS` 中的 `border-top-right-radius` 属性
 borderBottomLeftRadius | number | 对应 `CSS` 中的 `border-bottom-left-radius` 属性
 borderBottomRightRadius | number | 对应 `CSS` 中的 `border-bottom-right-radius` 属性
+
+<a name="background"></a>
+### Background 背景
+属性名 | 取值 | 描述
+---|---|---
+backgroundColor | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 `background-color` 属性
 
 <a name="flexbox"></a>
 ### Flexbox 弹性盒
