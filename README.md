@@ -139,6 +139,9 @@ alignSelf | auto/flex-start/flex-end/center/stretch | 对应 `CSS` 中的 `align
 opacity | number | 对应 `CSS` 中的 `opacity` 属性
 overflow | `visible`, `hidden` | 对应 `CSS` 中的 `overflow` 属性，但阉割了 `scroll, auto` 取值
 elevation<sup>`Android`</sup> | number | `CSS`中没有对应的属性，只在 `Android5.0+` 上有效
+resizeMode | `cover`, `contain`, `stretch` | `CSS`中没有对应的属性，可以参考 `background-size` 属性
+overlayColor<sup>`Android`</sup> | string | `CSS`中没有对应的属性，当图像有圆角时，将角落都充满一种颜色
+tintColor<sup>`iOS`</sup> | [&lt;color&gt;](#user-content-color) | `CSS`中没有对应的属性，`iOS` 图像上特殊的色彩，改变不透明像素的颜色
 
 
 <a name="values"></a>
