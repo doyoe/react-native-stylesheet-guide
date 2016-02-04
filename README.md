@@ -90,7 +90,7 @@ paddingLeft | number | 对应 `CSS` 中的 `padding-left` 属性
 ### Border 边框
 属性名 | 取值 | 描述
 ---|---|---
-borderStyle | `solid`, `dotted`, `dashed` | 对应 `CSS` 中的 `border-style` 属性，但阉割了`none,hidden,double,groove,ridge,inset,outset`取值，且无方向分拆属性
+borderStyle | `solid`, `dotted`, `dashed` | 对应 `CSS` 中的 `border-style` 属性，但阉割了 `none, hidden, double, groove, ridge, inset, outset` 取值，且无方向分拆属性
 borderWidth | number | 对应 `CSS` 中的 `border-width` 属性
 borderTopWidth | number | 对应 `CSS` 中的 `border-top-width` 属性
 borderRightWidth | number | 对应 `CSS` 中的 `border-right-width` 属性
@@ -118,7 +118,7 @@ backgroundColor | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 `ba
 属性名 | 取值 | 描述
 ---|---|---
 flex | number | 对应 `CSS` 中的 `flex` 属性
-flexDirection | row/column | 对应 `CSS` 中的 `flex-direction` 属性，但阉割了 `row-reverse/column-reverse` 取值
+flexDirection | row/column | 对应 `CSS` 中的 `flex-direction` 属性，但阉割了 `row-reverse, column-reverse` 取值
 flexWrap | wrap/nowrap | 对应 `CSS` 中的 `flex-wrap` 属性，但阉割了 `wrap-reverse` 取值
 justifyContent | flex-start/flex-end/center/space-between/space-around | 对应 `CSS` 中的 `justify-content` 属性，但阉割了 `stretch` 取值
 alignItems | flex-start/flex-end/center/stretch | 对应 `CSS` 中的 `align-items` 属性，但阉割了 `baseline` 取值
@@ -130,6 +130,7 @@ alignSelf | auto/flex-start/flex-end/center/stretch | 对应 `CSS` 中的 `align
 ---|---|---
 opacity | number | 对应 `CSS` 中的 `opacity` 属性
 overflow | `visible`, `hidden` | 对应 `CSS` 中的 `overflow` 属性，但阉割了 `scroll, auto` 取值
+elevation<sup>`Android`</sup> | number | `CSS`中没有对应的属性，只在 `Android5.0+` 上有效
 
 
 <a name="values"></a>
