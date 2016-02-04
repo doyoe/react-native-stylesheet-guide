@@ -37,8 +37,8 @@ textAlignVertical<sup>`Android`</sup> | auto/top/bottom/center | 对应 `CSS` �
 textShadowColor | color | 对应 `CSS` 中的 [text-shadow](http://css.doyoe.com/properties/text-decoration/text-shadow.htm) 属性中的颜色定义
 textShadowOffset | {width: number, height: number} | 对应 `CSS` 中的 [text-shadow](http://css.doyoe.com/properties/text-decoration/text-shadow.htm) 属性中的阴影偏移定义
 textShadowRadius | number | 在 `CSS` 中，阴影的圆角大小取决于元素的圆角定义，不需要额外定义
-textAlign | auto/left/right/center/justify<sup>`iOS`</sup> | 对应 `CSS` 中的 `text-align` 属性，但却多了 `auto` 取值
-textAlign | auto/left/right/center/justify<sup>`iOS`</sup> | 对应 `CSS` 中的 `text-align` 属性，但却多了 `auto` 取值
+letterSpacing<sup>`iOS`</sup> | number | 对应 `CSS` 中的 [letter-spacing](http://css.doyoe.com/properties/text/letter-spacing.htm) 属性，但取值不同
+textDecorationColor<sup>`iOS`</sup> | color | 对应 `CSS` 中的 [text-decoration-color](http://css.doyoe.com/properties/text-decoration/text-decoration-color.htm) 属性
 
 <a name="layout"></a>
 ### Layout 布局
