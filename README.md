@@ -5,8 +5,6 @@
 ## 目录
 
 * [Properties 属性](#user-content-properties)
-    * [view](#user-content-view)
-    * [Image](#user-content-view)
     * [Text 文本](#user-content-text)
     * [Dimension 尺寸](#user-content-dimension)
     * [Positioning 定位](#user-content-positioning)
