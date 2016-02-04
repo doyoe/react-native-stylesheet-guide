@@ -117,6 +117,7 @@ backgroundColor | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 `ba
 ### Transform 转换
 属性名 | 取值 | 描述
 ---|---|---
+transform | `[{perspective: number}, {rotate: string}, {rotateX: string}, {rotateY: string}, {rotateZ: string}, {scale: number}, {scaleX: number}, {scaleY: number}, {translateX: number}, {translateY: number}, {skewX: string}, {skewY: string}]` | 对应 `CSS` 中的 `transform` 属性
 backfaceVisibility | `visible`, `hidden` | 对应 `CSS` 中的 `backface-visibility` 属性
 
 <a name="flexbox"></a>
