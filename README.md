@@ -113,6 +113,12 @@ borderBottomRightRadius | number | 对应 `CSS` 中的 `border-bottom-right-radi
 ---|---|---
 backgroundColor | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 `background-color` 属性
 
+<a name="transform"></a>
+### Transform 转换
+属性名 | 取值 | 描述
+---|---|---
+backfaceVisibility | `visible`, `hidden` | 对应 `CSS` 中的 `backface-visibility` 属性
+
 <a name="flexbox"></a>
 ### Flexbox 弹性盒
 属性名 | 取值 | 描述
