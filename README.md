@@ -14,7 +14,9 @@
     * [Padding 内补白](#user-content-padding)
     * [Border 边框](#user-content-border)
     * [Background 背景](#user-content-background)
+    * [Transform 转换](#user-content-transform)
     * [Flexbox 弹性盒](#user-content-flexbox)
+    * [Other 其他](#user-content-other)
 * [Values 取值](#user-content-values)
     * [Color 颜色](#user-content-color)
 
@@ -121,6 +123,13 @@ flexWrap | wrap/nowrap | 对应 `CSS` 中的 `flex-wrap` 属性，但阉割了 `
 justifyContent | flex-start/flex-end/center/space-between/space-around | 对应 `CSS` 中的 `justify-content` 属性，但阉割了 `stretch` 取值
 alignItems | flex-start/flex-end/center/stretch | 对应 `CSS` 中的 `align-items` 属性，但阉割了 `baseline` 取值
 alignSelf | auto/flex-start/flex-end/center/stretch | 对应 `CSS` 中的 `align-self` 属性，但阉割了 `baseline` 取值
+
+<a name="other"></a>
+### Other 其他
+属性名 | 取值 | 描述
+---|---|---
+opacity | number | 对应 `CSS` 中的 `opacity` 属性
+overflow | `visible`, `hidden` | 对应 `CSS` 中的 `overflow` 属性，但阉割了 `scroll, auto` 取值
 
 
 <a name="values"></a>
