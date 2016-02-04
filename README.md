@@ -39,6 +39,9 @@ textShadowOffset | {width: number, height: number} | 对应 `CSS` 中的 [text-s
 textShadowRadius | number | 在 `CSS` 中，阴影的圆角大小取决于元素的圆角定义，不需要额外定义
 letterSpacing<sup>`iOS`</sup> | number | 对应 `CSS` 中的 [letter-spacing](http://css.doyoe.com/properties/text/letter-spacing.htm) 属性，但取值不同
 textDecorationColor<sup>`iOS`</sup> | color | 对应 `CSS` 中的 [text-decoration-color](http://css.doyoe.com/properties/text-decoration/text-decoration-color.htm) 属性
+textDecorationLine<sup>`iOS`</sup> | `none`, `underline`, `line-through`, `underline line-through` | 对应 `CSS` 中的 [text-decoration-line](http://css.doyoe.com/properties/text-decoration/text-decoration-line.htm) 属性，但取值不同
+textDecorationStyle<sup>`iOS`</sup> | color | 对应 `CSS` 中的 [text-decoration-style](http://css.doyoe.com/properties/text-decoration/text-decoration-style.htm) 属性
+writingDirection<sup>`iOS`</sup> | color | 对应 `CSS` 中的 [text-decoration-color](http://css.doyoe.com/properties/text-decoration/text-decoration-color.htm) 属性
 
 <a name="layout"></a>
 ### Layout 布局
