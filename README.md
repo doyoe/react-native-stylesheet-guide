@@ -171,6 +171,8 @@ tintColor<sup>`iOS`</sup> | [&lt;color&gt;](#user-content-color) | `CSS`中没�
 <a name="number"></a>
 ### Number 数值
 
+在 `React-Native` 中，目前仅支持 `Number` 这一种长度取值。默认缺省了 `pt` 单位，详细请看 [Units 单位](#user-content-units) 部分。
+
 <a name="units"></a>
 ## Units 单位
 
