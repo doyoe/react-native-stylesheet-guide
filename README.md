@@ -87,7 +87,7 @@ paddingLeft | number | 对应 `CSS` 中的 `padding-left` 属性
 ### Border 边框
 属性名 | 取值 | 描述
 ---|---|---
-borderStyle | `solid`, `dotted`, `dashed` | 对应 `CSS` 中的 `border-style` 属性，但阉割了 `none`, `hidden`, `double`, `groove`, `ridge`, `inset`, `outset` 取值，并且没有4个方向的分拆属性
+borderStyle | `solid`, `dotted`, `dashed` | 对应 `CSS` 中的 `border-style` 属性，但阉割了 `none`, `hidden`, `double`, `groove`, `ridge`, `inset`, `outset` 取值，且没有4个方向的分拆属性
 borderWidth | number | 对应 `CSS` 中的 `border-width` 属性
 borderTopWidth | number | 对应 `CSS` 中的 `border-top-width` 属性
 borderRightWidth | number | 对应 `CSS` 中的 `border-right-width` 属性
