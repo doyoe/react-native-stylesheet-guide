@@ -17,9 +17,9 @@
     * [Other 其他](#user-content-other)
 * [Values 取值](#user-content-values)
     * [Color 颜色](#user-content-color)
-    * [number 数值](#user-content-number)
+    * [Number 数值](#user-content-number)
 * [Units 单位](#user-content-units)
-    * [pt 点](#user-content-pt)
+    * [Pt 点](#user-content-pt)
 
 
 <a name="properties"></a>
@@ -34,13 +34,13 @@ fontFamily | string | 对应 `CSS` 中的 [font-family](http://css.doyoe.com/pro
 fontSize | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [font-size](http://css.doyoe.com/properties/font/font-size.htm) 属性
 fontStyle | `normal`, `italic` | 对应 `CSS` 中的 [font-style](http://css.doyoe.com/properties/font/font-style.htm) 属性，但阉割了 `oblique` 取值
 fontWeight | `normal`, `bold` `100~900` | 对应 `CSS` 中的 [font-weight](http://css.doyoe.com/properties/font/font-weight.htm) 属性，但阉割了 `bolder, lighter` 取值
-lineHeight | number | 对应 `CSS` 中的 [line-height](http://css.doyoe.com/properties/text/line-height.htm) 属性
+lineHeight | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [line-height](http://css.doyoe.com/properties/text/line-height.htm) 属性
 textAlign | `auto`, `left`, `right`, `center`, `justify`<sup>`iOS`</sup> | 对应 `CSS` 中的 [text-align](http://css.doyoe.com/properties/text/text-align.htm) 属性，增加了 `auto` 取值
 textAlignVertical<sup>`Android`</sup> | `auto`, `top`, `bottom`, `center` | 对应 `CSS` 中的 [vertical-align](http://css.doyoe.com/properties/text/vertical-align.htm) 属性，增加了 `auto` 取值，`center` 取代了 `middle`，并阉割了 `baseline, sub` 等值
 textShadowColor | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 [text-shadow](http://css.doyoe.com/properties/text-decoration/text-shadow.htm) 属性中的颜色定义
 textShadowOffset | {width: number, height: number} | 对应 `CSS` 中的 [text-shadow](http://css.doyoe.com/properties/text-decoration/text-shadow.htm) 属性中的阴影偏移定义
-textShadowRadius | number | 在 `CSS` 中，阴影的圆角大小取决于元素的圆角定义，不需要额外定义
-letterSpacing<sup>`iOS`</sup> | number | 对应 `CSS` 中的 [letter-spacing](http://css.doyoe.com/properties/text/letter-spacing.htm) 属性，但取值不同
+textShadowRadius | [&lt;number&gt;](#user-content-number) | 在 `CSS` 中，阴影的圆角大小取决于元素的圆角定义，不需要额外定义
+letterSpacing<sup>`iOS`</sup> | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [letter-spacing](http://css.doyoe.com/properties/text/letter-spacing.htm) 属性，但取值不同
 textDecorationColor<sup>`iOS`</sup> | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 [text-decoration-color](http://css.doyoe.com/properties/text-decoration/text-decoration-color.htm) 属性
 textDecorationLine<sup>`iOS`</sup> | `none`, `underline`, `line-through`, `underline line-through` | 对应 `CSS` 中的 [text-decoration-line](http://css.doyoe.com/properties/text-decoration/text-decoration-line.htm) 属性，但阉割了 `overline`, `blink` 取值
 textDecorationStyle<sup>`iOS`</sup> | `solid`, `double`, `dotted`, `dashed` | 对应 `CSS` 中的 [text-decoration-style](http://css.doyoe.com/properties/text-decoration/text-decoration-style.htm) 属性，但阉割了 `wavy` 取值
@@ -50,67 +50,67 @@ writingDirection<sup>`iOS`</sup> | `auto`, `ltr`, `rtl` | 对应 `CSS` 中的 [d
 ### Dimension 尺寸
 属性名 | 取值 | 描述
 ---|---|---
-width | number | 对应 `CSS` 中的 `width` 属性
-height | number | 对应 `CSS` 中的 `height` 属性
+width | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `width` 属性
+height | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `height` 属性
 
 <a name="positioning"></a>
 ### Positioning 定位
 属性名 | 取值 | 描述
 ---|---|---
 position | `absolute`, `relative` | 对应 `CSS` 中的 `position` 属性，但阉割了 `static, fixed` 取值
-top | number | 对应 `CSS` 中的 `top` 属性
-right | number | 对应 `CSS` 中的 `right` 属性
-bottom | number | 对应 `CSS` 中的 `bottom` 属性
-left | number | 对应 `CSS` 中的 `left` 属性
+top | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `top` 属性
+right | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `right` 属性
+bottom | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `bottom` 属性
+left | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `left` 属性
 
 <a name="margin"></a>
 ### Margin 外部白
 属性名 | 取值 | 描述
 ---|---|---
-margin | number | 对应 `CSS` 中的 `margin` 属性
-marginHorizontal | number | `CSS`中没有对应的属性，相当于同时设置marginRight和marginLeft
-marginVertical | number | `CSS`中没有对应的属性，相当于同时设置marginTop和marginBottom
-marginTop | number | 对应 `CSS` 中的 `margin-top` 属性
-marginRight | number | 对应 `CSS` 中的 `margin-right` 属性
-marginBottom | number | 对应 `CSS` 中的 `margin-bottom` 属性
-marginLeft | number | 对应 `CSS` 中的 `margin-left` 属性
+margin | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `margin` 属性
+marginHorizontal | [&lt;number&gt;](#user-content-number) | `CSS`中没有对应的属性，相当于同时设置marginRight和marginLeft
+marginVertical | [&lt;number&gt;](#user-content-number) | `CSS`中没有对应的属性，相当于同时设置marginTop和marginBottom
+marginTop | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `margin-top` 属性
+marginRight | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `margin-right` 属性
+marginBottom | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `margin-bottom` 属性
+marginLeft | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `margin-left` 属性
 
 <a name="padding"></a>
 ### Padding 内部白
 属性名 | 取值 | 描述
 ---|---|---
-padding | number | 对应 `CSS` 中的 `padding` 属性
-paddingHorizontal | number | `CSS`中没有对应的属性，相当于同时设置paddingRight和paddingLeft
-paddingVertical | number | `CSS`中没有对应的属性，相当于同时设置paddingTop和paddingBottom
-paddingTop | number | 对应 `CSS` 中的 `padding-top` 属性
-paddingRight | number | 对应 `CSS` 中的 `padding-right` 属性
-paddingBottom | number | 对应 `CSS` 中的 `padding-bottom` 属性
-paddingLeft | number | 对应 `CSS` 中的 `padding-left` 属性
+padding | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `padding` 属性
+paddingHorizontal | [&lt;number&gt;](#user-content-number) | `CSS`中没有对应的属性，相当于同时设置paddingRight和paddingLeft
+paddingVertical | [&lt;number&gt;](#user-content-number) | `CSS`中没有对应的属性，相当于同时设置paddingTop和paddingBottom
+paddingTop | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `padding-top` 属性
+paddingRight | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `padding-right` 属性
+paddingBottom | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `padding-bottom` 属性
+paddingLeft | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `padding-left` 属性
 
 <a name="border"></a>
 ### Border 边框
 属性名 | 取值 | 描述
 ---|---|---
 borderStyle | `solid`, `dotted`, `dashed` | 对应 `CSS` 中的 `border-style` 属性，但阉割了 `none, hidden, double, groove, ridge, inset, outset` 取值，且无方向分拆属性
-borderWidth | number | 对应 `CSS` 中的 `border-width` 属性
-borderTopWidth | number | 对应 `CSS` 中的 `border-top-width` 属性
-borderRightWidth | number | 对应 `CSS` 中的 `border-right-width` 属性
-borderBottomWidth | number | 对应 `CSS` 中的 `border-bottom-width` 属性
-borderLeftWidth | number | 对应 `CSS` 中的 `border-left-width` 属性
+borderWidth | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `border-width` 属性
+borderTopWidth | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `border-top-width` 属性
+borderRightWidth | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `border-right-width` 属性
+borderBottomWidth | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `border-bottom-width` 属性
+borderLeftWidth | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `border-left-width` 属性
 borderColor | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 `border-color` 属性
 borderTopColor | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 `border-top-color` 属性
 borderRightColor | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 `border-right-color` 属性
 borderBottomColor | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 `border-bottom-color` 属性
 borderLeftColor | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 `border-left-color` 属性
-borderRadius | number | 对应 `CSS` 中的 `border-radius` 属性
-borderTopLeftRadius | number | 对应 `CSS` 中的 `border-top-left-radius` 属性
-borderTopRightRadius | number | 对应 `CSS` 中的 `border-top-right-radius` 属性
-borderBottomLeftRadius | number | 对应 `CSS` 中的 `border-bottom-left-radius` 属性
-borderBottomRightRadius | number | 对应 `CSS` 中的 `border-bottom-right-radius` 属性
+borderRadius | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `border-radius` 属性
+borderTopLeftRadius | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `border-top-left-radius` 属性
+borderTopRightRadius | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `border-top-right-radius` 属性
+borderBottomLeftRadius | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `border-bottom-left-radius` 属性
+borderBottomRightRadius | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `border-bottom-right-radius` 属性
 shadowColor | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 [box-shadow](http://css.doyoe.com/properties/border/box-shadow.htm) 属性中的颜色定义
 shadowOffset | {width: number, height: number} | 对应 `CSS` 中的 [box-shadow](http://css.doyoe.com/properties/border/box-shadow.htm) 属性中的阴影偏移定义
-shadowRadius | number | 在 `CSS` 中，阴影的圆角大小取决于元素的圆角定义，不需要额外定义
-shadowOpacity | number | 对应 `CSS` 中的 [box-shadow](http://css.doyoe.com/properties/border/box-shadow.htm) 属性中的阴影透明度定义
+shadowRadius | [&lt;number&gt;](#user-content-number) | 在 `CSS` 中，阴影的圆角大小取决于元素的圆角定义，不需要额外定义
+shadowOpacity | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [box-shadow](http://css.doyoe.com/properties/border/box-shadow.htm) 属性中的阴影透明度定义
 
 <a name="background"></a>
 ### Background 背景
@@ -130,7 +130,7 @@ backfaceVisibility | `visible`, `hidden` | 对应 `CSS` 中的 `backface-visibil
 ### Flexbox 弹性盒
 属性名 | 取值 | 描述
 ---|---|---
-flex | number | 对应 `CSS` 中的 `flex` 属性
+flex | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `flex` 属性
 flexDirection | `row`, `column` | 对应 `CSS` 中的 `flex-direction` 属性，但阉割了 `row-reverse, column-reverse` 取值
 flexWrap | `wrap`, `nowrap` | 对应 `CSS` 中的 `flex-wrap` 属性，但阉割了 `wrap-reverse` 取值
 justifyContent | `flex-start`, `flex-end`, `center`, `space-between`, `space-around` | 对应 `CSS` 中的 `justify-content` 属性，但阉割了 `stretch` 取值
@@ -141,9 +141,9 @@ alignSelf | `auto`, `flex-start`, `flex-end`, `center`, `stretch` | 对应 `CSS`
 ### Other 其他
 属性名 | 取值 | 描述
 ---|---|---
-opacity | number | 对应 `CSS` 中的 `opacity` 属性
+opacity | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `opacity` 属性
 overflow | `visible`, `hidden` | 对应 `CSS` 中的 `overflow` 属性，但阉割了 `scroll, auto` 取值
-elevation<sup>`Android`</sup> | number | `CSS`中没有对应的属性，只在 `Android5.0+` 上有效
+elevation<sup>`Android`</sup> | [&lt;number&gt;](#user-content-number) | `CSS`中没有对应的属性，只在 `Android5.0+` 上有效
 resizeMode | `cover`, `contain`, `stretch` | `CSS`中没有对应的属性，可以参考 `background-size` 属性
 overlayColor<sup>`Android`</sup> | string | `CSS`中没有对应的属性，当图像有圆角时，将角落都充满一种颜色
 tintColor<sup>`iOS`</sup> | [&lt;color&gt;](#user-content-color) | `CSS`中没有对应的属性，`iOS` 图像上特殊的色彩，改变不透明像素的颜色
