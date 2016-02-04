@@ -32,7 +32,7 @@ fontSize | number | 对应 `CSS` 中的 `font-size` 属性
 fontStyle | normal/italic | 对应 `CSS` 中的 `font-style` 属性，但阉割了 `oblique` 取值
 fontWeight | normal/bold/100/200/300/400/500/600/700/800/900 | 对应 `CSS` 中的 `font-weight` 属性，但阉割了 `bolder/lighter` 取值
 lineHeight | number | 对应 `CSS` 中的 `line-height` 属性
-textAlign | auto/left/right/center/justify | 对应 `CSS` 中的 `text-align` 属性
+textAlign | auto/left/right/center/justify(`iOS`) | 对应 `CSS` 中的 `text-align` 属性
 
 <a name="layout"></a>
 ### Layout 布局
