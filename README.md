@@ -1,4 +1,4 @@
-# React-Native StyleSheet Guide
+# React-Native 样式指南
 
 `React-Native` 的样式基本上是实现了 `CSS` 的一个子集，并且属性名不完全一致，所以当你开始在编写 `React-Native` 之前，可以先简要了解一下。
 
@@ -133,8 +133,8 @@ backfaceVisibility | `visible`, `hidden` | 对应 `CSS` 中的 `backface-visibil
 flex | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `flex` 属性
 flexDirection | `row`, `column` | 对应 `CSS` 中的 `flex-direction` 属性，但阉割了 `row-reverse, column-reverse` 取值
 flexWrap | `wrap`, `nowrap` | 对应 `CSS` 中的 `flex-wrap` 属性，但阉割了 `wrap-reverse` 取值
-justifyContent | `flex-start`, `flex-end`, `center`, `space-between`, `space-around` | 对应 `CSS` 中的 `justify-content` 属性，但阉割了 `stretch` 取值
-alignItems | `flex-start`, `flex-end`, `center`, `stretch` | 对应 `CSS` 中的 `align-items` 属性，但阉割了 `baseline` 取值
+justifyContent | `flex-start`, `flex-end`, `center`, `space-between`, `space-around` | 对应 `CSS` 中的 `justify-content` 属性，但阉割了 `stretch` 取值。与CSS不同的是，这里控制的是纵轴
+alignItems | `flex-start`, `flex-end`, `center`, `stretch` | 对应 `CSS` 中的 `align-items` 属性，但阉割了 `baseline` 取值。与CSS不同的是，这里控制的是横轴
 alignSelf | `auto`, `flex-start`, `flex-end`, `center`, `stretch` | 对应 `CSS` 中的 `align-self` 属性，但阉割了 `baseline` 取值
 
 <a name="other"></a>
