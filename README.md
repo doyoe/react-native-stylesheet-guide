@@ -67,7 +67,7 @@ left | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `left` 属�
 ### Margin 外部白
 属性名 | 取值 | 描述
 ---|---|---
-margin | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `margin` 属性
+margin | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `margin` 属性，不同的是，只能定义一个参数，用以表示`上、右、下、左`4个方位的外补白
 marginHorizontal | [&lt;number&gt;](#user-content-number) | `CSS`中没有对应的属性，相当于同时设置marginRight和marginLeft
 marginVertical | [&lt;number&gt;](#user-content-number) | `CSS`中没有对应的属性，相当于同时设置marginTop和marginBottom
 marginTop | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `margin-top` 属性
@@ -79,7 +79,7 @@ marginLeft | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `margi
 ### Padding 内部白
 属性名 | 取值 | 描述
 ---|---|---
-padding | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `padding` 属性
+padding | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `padding` 属性，不同的是，只能定义一个参数，用以表示`上、右、下、左`4个方位的内补白
 paddingHorizontal | [&lt;number&gt;](#user-content-number) | `CSS`中没有对应的属性，相当于同时设置paddingRight和paddingLeft
 paddingVertical | [&lt;number&gt;](#user-content-number) | `CSS`中没有对应的属性，相当于同时设置paddingTop和paddingBottom
 paddingTop | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `padding-top` 属性
