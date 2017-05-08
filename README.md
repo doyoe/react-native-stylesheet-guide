@@ -2,6 +2,10 @@
 
 `React-Native` 的样式基本上是实现了 `CSS` 的一个子集，并且属性名不完全一致，所以当你开始在编写 `React-Native` 之前，可以先简要了解一下。
 
+## 更新日期
+
+2017.5.8
+
 ## 目录
 
 * [Properties 属性](#user-content-properties)
