@@ -56,8 +56,12 @@ writingDirection<sup>`iOS`</sup> | `auto`, `ltr`, `rtl` | 对应 `CSS` 中的 [d
 ### Dimension 尺寸
 属性名 | 取值 | 描述
 ---|---|---
-width | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [width](http://css.doyoe.com/properties/dimension/width.htm) 属性
-height | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [height](http://css.doyoe.com/properties/dimension/height.htm) 属性
+width | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [width](http://css.doyoe.com/properties/dimension/width.htm) 属性，但取值不同
+minWidth | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [min-width](http://css.doyoe.com/properties/dimension/min-width.htm) 属性，但取值不同
+maxWidth | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [max-width](http://css.doyoe.com/properties/dimension/max-width.htm) 属性，但取值不同
+height | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [height](http://css.doyoe.com/properties/dimension/height.htm) 属性，但取值不同
+minHeight | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [min-height](http://css.doyoe.com/properties/dimension/min-height.htm) 属性，但取值不同
+maxHeight | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [max-height](http://css.doyoe.com/properties/dimension/max-height.htm) 属性，但取值不同
 
 <a name="positioning"></a>
 ### Positioning 定位
