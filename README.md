@@ -64,7 +64,7 @@ minHeight | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [min-he
 maxHeight | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [max-height](http://css.doyoe.com/properties/dimension/max-height.htm) 属性，但取值不同
 
 <a name="positioning"></a>
-### Positioning 定位
+### Positioning 定位（5）
 属性名 | 取值 | 描述
 ---|---|---
 position | `absolute`, `relative` | 对应 `CSS` 中的 [position](http://css.doyoe.com/properties/positioning/position.htm) 属性，但阉割了 `static, fixed` 取值
@@ -74,19 +74,19 @@ bottom | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [bottom](h
 left | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [left](http://css.doyoe.com/properties/positioning/left.htm) 属性
 
 <a name="margin"></a>
-### Margin 外部白
+### Margin 外部白（7）
 属性名 | 取值 | 描述
 ---|---|---
-margin | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `margin` 属性，不同的是，只能定义一个参数，用以表示`上、右、下、左`4个方位的外补白
+margin | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [margin](http://css.doyoe.com/properties/margin/margin.htm) 属性，不同的是，它只能定义一个参数，如需分别定义`上、右、下、左`4个方位的外补白，可以通过下面的单向外部白属性
 marginHorizontal | [&lt;number&gt;](#user-content-number) | `CSS`中没有对应的属性，相当于同时设置marginRight和marginLeft
 marginVertical | [&lt;number&gt;](#user-content-number) | `CSS`中没有对应的属性，相当于同时设置marginTop和marginBottom
-marginTop | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `margin-top` 属性
-marginRight | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `margin-right` 属性
-marginBottom | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `margin-bottom` 属性
-marginLeft | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `margin-left` 属性
+marginTop | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [margin-top](http://css.doyoe.com/properties/margin/margin-top.htm) 属性
+marginRight | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [margin-right](http://css.doyoe.com/properties/margin/margin-right.htm) 属性
+marginBottom | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [margin-bottom](http://css.doyoe.com/properties/margin/margin-bottom.htm) 属性
+marginLeft | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [margin-left](http://css.doyoe.com/properties/margin/margin-left.htm) 属性
 
 <a name="padding"></a>
-### Padding 内部白
+### Padding 内部白（7）
 属性名 | 取值 | 描述
 ---|---|---
 padding | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `padding` 属性，不同的是，只能定义一个参数，用以表示`上、右、下、左`4个方位的内补白
