@@ -99,7 +99,7 @@ paddingBottom | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [pa
 paddingLeft | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [padding-left](http://css.doyoe.com/properties/padding/padding-left.htm) 属性
 
 <a name="border"></a>
-### Border 边框
+### Border 边框（20）
 属性名 | 取值 | 描述
 ---|---|---
 borderStyle | `solid`, `dotted`, `dashed` | 对应 `CSS` 中的 `border-style` 属性，但阉割了 `none, hidden, double, groove, ridge, inset, outset` 取值，且无方向分拆属性
@@ -124,13 +124,13 @@ shadowRadius | [&lt;number&gt;](#user-content-number) | 在 `CSS` 中，阴影�
 shadowOpacity | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [box-shadow](http://css.doyoe.com/properties/border/box-shadow.htm) 属性中的阴影透明度定义
 
 <a name="background"></a>
-### Background 背景
+### Background 背景（1）
 属性名 | 取值 | 描述
 ---|---|---
 backgroundColor | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 `background-color` 属性
 
 <a name="transform"></a>
-### Transform 转换
+### Transform 转换（3）
 属性名 | 取值 | 描述
 ---|---|---
 transform | `[{perspective: number}, {rotate: string}, {rotateX: string}, {rotateY: string}, {rotateZ: string}, {scale: number}, {scaleX: number}, {scaleY: number}, {translateX: number}, {translateY: number}, {skewX: string}, {skewY: string}]` | 对应 `CSS` 中的 `transform` 属性
