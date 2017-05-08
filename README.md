@@ -53,7 +53,7 @@ textDecorationStyle<sup>`iOS`</sup> | `solid`, `double`, `dotted`, `dashed` | �
 writingDirection<sup>`iOS`</sup> | `auto`, `ltr`, `rtl` | 对应 `CSS` 中的 [direction](http://css.doyoe.com/properties/writing-modes/direction.htm) 属性，增加了 `auto` 取值
 
 <a name="dimension"></a>
-### Dimension 尺寸
+### Dimension 尺寸（6）
 属性名 | 取值 | 描述
 ---|---|---
 width | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [width](http://css.doyoe.com/properties/dimension/width.htm) 属性，但取值不同
@@ -67,11 +67,11 @@ maxHeight | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [max-he
 ### Positioning 定位
 属性名 | 取值 | 描述
 ---|---|---
-position | `absolute`, `relative` | 对应 `CSS` 中的 `position` 属性，但阉割了 `static, fixed` 取值
-top | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `top` 属性
-right | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `right` 属性
-bottom | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `bottom` 属性
-left | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `left` 属性
+position | `absolute`, `relative` | 对应 `CSS` 中的 [position](http://css.doyoe.com/properties/positioning/position.htm) 属性，但阉割了 `static, fixed` 取值
+top | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [top](http://css.doyoe.com/properties/positioning/top.htm) 属性
+right | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [right](http://css.doyoe.com/properties/positioning/right.htm) 属性
+bottom | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [bottom](http://css.doyoe.com/properties/positioning/bottom.htm) 属性
+left | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [left](http://css.doyoe.com/properties/positioning/left.htm) 属性
 
 <a name="margin"></a>
 ### Margin 外部白
