@@ -30,7 +30,7 @@
 ## Properties 属性
 
 <a name="text"></a>
-### Text 文本
+### Text 文本（18）
 属性名 | 取值 | 描述
 ---|---|---
 color | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 [color](http://css.doyoe.com/properties/color/color.htm) 属性
