@@ -72,6 +72,7 @@ top | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [top](http://
 right | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [right](http://css.doyoe.com/properties/positioning/right.htm) 属性
 bottom | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [bottom](http://css.doyoe.com/properties/positioning/bottom.htm) 属性
 left | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [left](http://css.doyoe.com/properties/positioning/left.htm) 属性
+zIndex | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [z-index](http://css.doyoe.com/properties/positioning/z-index.htm) 属性
 
 <a name="margin"></a>
 ### Margin 外部白（7）
