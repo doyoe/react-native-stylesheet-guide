@@ -141,7 +141,7 @@ backfaceVisibility | `visible`, `hidden` | 对应 `CSS` 中的 `backface-visibil
 ### Flexbox 弹性盒
 属性名 | 取值 | 描述
 ---|---|---
-flex | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `flex` 属性
+flex | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `flex` 属性，但只能为整数值
 flexDirection | `row`, `row-reverse`, `column`, `column-reverse` | 对应 `CSS` 中的 `flex-direction` 属性
 flexWrap | `wrap`, `nowrap` | 对应 `CSS` 中的 `flex-wrap` 属性，但阉割了 `wrap-reverse` 取值
 justifyContent | `flex-start`, `flex-end`, `center`, `space-between`, `space-around` | 对应 `CSS` 中的 `justify-content` 属性，但阉割了 `stretch` 取值。
