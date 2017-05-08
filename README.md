@@ -56,8 +56,8 @@ writingDirection<sup>`iOS`</sup> | `auto`, `ltr`, `rtl` | 对应 `CSS` 中的 [d
 ### Dimension 尺寸
 属性名 | 取值 | 描述
 ---|---|---
-width | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `width` 属性
-height | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `height` 属性
+width | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [width](http://css.doyoe.com/properties/dimension/width.htm) 属性
+height | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [height](http://css.doyoe.com/properties/dimension/height.htm) 属性
 
 <a name="positioning"></a>
 ### Positioning 定位
