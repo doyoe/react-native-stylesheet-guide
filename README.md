@@ -64,7 +64,7 @@ minHeight | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [min-he
 maxHeight | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [max-height](http://css.doyoe.com/properties/dimension/max-height.htm) 属性，但取值不同
 
 <a name="positioning"></a>
-### Positioning 定位（5）
+### Positioning 定位（6）
 属性名 | 取值 | 描述
 ---|---|---
 position | `absolute`, `relative` | 对应 `CSS` 中的 [position](http://css.doyoe.com/properties/positioning/position.htm) 属性，但阉割了 `static, fixed` 取值
@@ -142,7 +142,7 @@ backfaceVisibility | `visible`, `hidden` | 对应 `CSS` 中的 `backface-visibil
 属性名 | 取值 | 描述
 ---|---|---
 flex | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `flex` 属性
-flexDirection | `row`, `column` | 对应 `CSS` 中的 `flex-direction` 属性，但阉割了 `row-reverse, column-reverse` 取值
+flexDirection | `row`, `row-reverse`, `column`, `column-reverse` | 对应 `CSS` 中的 `flex-direction` 属性
 flexWrap | `wrap`, `nowrap` | 对应 `CSS` 中的 `flex-wrap` 属性，但阉割了 `wrap-reverse` 取值
 justifyContent | `flex-start`, `flex-end`, `center`, `space-between`, `space-around` | 对应 `CSS` 中的 `justify-content` 属性，但阉割了 `stretch` 取值。
 alignItems | `flex-start`, `flex-end`, `center`, `stretch` | 对应 `CSS` 中的 `align-items` 属性，但阉割了 `baseline` 取值。
@@ -153,7 +153,7 @@ alignSelf | `auto`, `flex-start`, `flex-end`, `center`, `stretch` | 对应 `CSS`
 属性名 | 取值 | 描述
 ---|---|---
 opacity | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 `opacity` 属性
-overflow | `visible`, `hidden` | 对应 `CSS` 中的 `overflow` 属性，但阉割了 `scroll, auto` 取值
+overflow | `visible`, `hidden`, `scroll` | 对应 `CSS` 中的 `overflow` 属性，但阉割了 `auto` 取值
 elevation<sup>`Android`</sup> | [&lt;number&gt;](#user-content-number) | `CSS`中没有对应的属性，只在 `Android5.0+` 上有效
 resizeMode | `cover`, `contain`, `stretch` | `CSS`中没有对应的属性，可以参考 `background-size` 属性
 overlayColor<sup>`Android`</sup> | string | `CSS`中没有对应的属性，当图像有圆角时，将角落都充满一种颜色
