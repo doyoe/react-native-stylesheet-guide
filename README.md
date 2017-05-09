@@ -169,14 +169,9 @@ tintColor<sup>`iOS`</sup> | [&lt;color&gt;](#user-content-color) | `CSS`中没�
 <a name="color"></a>
 ### Color 颜色
 
-`React Native` 支持了 `CSS` 中大部分的颜色类型，差异见下表：
+`React Native` 支持了 `CSS` 中大部分的颜色类型：
 
-值 | React Native | CSS | 描述
----|---|---
-`#f00` (#rgb) | √ | × | 对应 `CSS` 中的 `background-color` 属性
-
-
-
+* `#f00` (#rgb)
 * `#f00c` (#rgba)：`CSS` 中无对应的值
 * `#ff0000` (#rrggbb)
 * `#ff0000cc` (#rrggbbaa)：`CSS` 中无对应的值
