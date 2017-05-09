@@ -173,8 +173,8 @@ tintColor<sup>`iOS`</sup> | [&lt;color&gt;](#user-content-color) | `CSS`中没�
 
 值 | React Native | CSS | 描述
 ---|---|---
-`#f00` (#rgb) | √ | √ | ×
-`#f00` (#rgb) | √ | √ | ×
+#f00 (#rgb) | √ | √ | ×
+#f00 (#rgb) | √ | √ | ×
 
 
 
