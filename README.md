@@ -180,6 +180,7 @@ tintColor<sup>`iOS`</sup> | [&lt;color&gt;](#user-content-color) | `CSS`中没�
 * `hsl(360, 100%, 100%)`
 * `hsla(360, 100%, 100%, 0.9)`
 * `transparent`
+* `0xff00ff00` (0xrrggbbaa)
 * `Color Name`：支持了 [基本颜色关键字](http://css.doyoe.com/appendix/color-keywords.htm#basic) 和 [拓展颜色关键字](http://css.doyoe.com/appendix/color-keywords.htm#extended)，但不支持 [28个系统颜色](http://css.doyoe.com/appendix/color-keywords.htm#system)；
 
 <a name="number"></a>
