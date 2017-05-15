@@ -33,8 +33,8 @@
 ### Text 文本（18）
 属性名 | 取值 | 描述
 ---|---|---
-color | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 [color](http://css.doyoe.com/properties/color/color.htm) 属性
-fontFamily | string | 对应 `CSS` 中的 [font-family](http://css.doyoe.com/properties/font/font-family.htm) 属性
+color | [&lt;color&gt;](#user-content-color) | 对应 `CSS` [color](http://css.doyoe.com/properties/color/color.htm) 属性
+fontFamily | string | 对应 `CSS` [font-family](http://css.doyoe.com/properties/font/font-family.htm) 属性
 fontSize | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [font-size](http://css.doyoe.com/properties/font/font-size.htm) 属性
 fontStyle | `normal`, `italic` | 对应 `CSS` 中的 [font-style](http://css.doyoe.com/properties/font/font-style.htm) 属性，但阉割了 `oblique` 取值
 fontWeight | `normal`, `bold` `100~900` | 对应 `CSS` 中的 [font-weight](http://css.doyoe.com/properties/font/font-weight.htm) 属性，但阉割了 `bolder, lighter` 取值
