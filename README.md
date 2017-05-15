@@ -35,13 +35,13 @@
 ---|---|---
 color | [&lt;color&gt;](#user-content-color) | 对应 `CSS` [color](http://css.doyoe.com/properties/color/color.htm) 属性
 fontFamily | string | 对应 `CSS` [font-family](http://css.doyoe.com/properties/font/font-family.htm) 属性
-fontSize | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [font-size](http://css.doyoe.com/properties/font/font-size.htm) 属性
-fontStyle | `normal`, `italic` | 对应 `CSS` 中的 [font-style](http://css.doyoe.com/properties/font/font-style.htm) 属性，但阉割了 `oblique` 取值
-fontWeight | `normal`, `bold` `100~900` | 对应 `CSS` 中的 [font-weight](http://css.doyoe.com/properties/font/font-weight.htm) 属性，但阉割了 `bolder, lighter` 取值
-lineHeight | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [line-height](http://css.doyoe.com/properties/text/line-height.htm) 属性
-textAlign | `auto`, `left`, `right`, `center`, `justify`<sup>`iOS`</sup> | 对应 `CSS` 中的 [text-align](http://css.doyoe.com/properties/text/text-align.htm) 属性，但增加了 `auto` 取值。当取值为 `justify` 时，在 `Android` 上会变为 `left`
-textDecorationLine | `none`, `underline`, `line-through`, `underline line-through` | 对应 `CSS` 中的 [text-decoration-line](http://css.doyoe.com/properties/text-decoration/text-decoration-line.htm) 属性，但阉割了 `overline`, `blink` 取值
-textShadowColor | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 [text-shadow](http://css.doyoe.com/properties/text-decoration/text-shadow.htm) 属性中的颜色定义
+fontSize | [&lt;number&gt;](#user-content-number) | 对应 `CSS` [font-size](http://css.doyoe.com/properties/font/font-size.htm) 属性
+fontStyle | `normal`, `italic` | 对应 `CSS` [font-style](http://css.doyoe.com/properties/font/font-style.htm) 属性，但阉割了 `oblique` 取值
+fontWeight | `normal`, `bold` `100~900` | 对应 `CSS` [font-weight](http://css.doyoe.com/properties/font/font-weight.htm) 属性，但阉割了 `bolder, lighter` 取值
+lineHeight | [&lt;number&gt;](#user-content-number) | 对应 `CSS` [line-height](http://css.doyoe.com/properties/text/line-height.htm) 属性
+textAlign | `auto`, `left`, `right`, `center`, `justify`<sup>`iOS`</sup> | 对应 `CSS` [text-align](http://css.doyoe.com/properties/text/text-align.htm) 属性，但增加了 `auto` 取值。当取值为 `justify` 时，在 `Android` 上会变为 `left`
+textDecorationLine | `none`, `underline`, `line-through`, `underline line-through` | 对应 `CSS` [text-decoration-line](http://css.doyoe.com/properties/text-decoration/text-decoration-line.htm) 属性，但阉割了 `overline`, `blink` 取值
+textShadowColor | [&lt;color&gt;](#user-content-color) | 对应 `CSS` [text-shadow](http://css.doyoe.com/properties/text-decoration/text-shadow.htm) 属性中的颜色定义
 textShadowOffset | {<br>width:[&lt;number&gt;](#user-content-number),<br>height:[&lt;number&gt;](#user-content-number)<br>} | 对应 `CSS` 中的 [text-shadow](http://css.doyoe.com/properties/text-decoration/text-shadow.htm) 属性中的阴影偏移定义
 textShadowRadius | [&lt;number&gt;](#user-content-number) | 在 `CSS` 中，阴影的圆角大小取决于元素的圆角定义，不需要额外定义
 includeFontPadding<br /><sup>`Android`</sup> | [&lt;bool&gt;](#user-content-bool) | Android在默认情况下会为文字额外保留一些padding，以便留出空间摆放上标或是下标的文字。对于某些字体来说，这些额外的padding可能会导致文字难以垂直居中。如果你把textAlignVertical设置为center之后，文字看起来依然不在正中间，那么可以尝试将本属性设置为false
