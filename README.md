@@ -42,15 +42,15 @@ lineHeight | [&lt;number&gt;](#user-content-number) | 对应 `CSS` [line-height]
 textAlign | `auto`, `left`, `right`, `center`, `justify`<sup>`iOS`</sup> | 对应 `CSS` [text-align](http://css.doyoe.com/properties/text/text-align.htm) 属性，但增加了 `auto` 取值。当取值为 `justify` 时，在 `Android` 上会变为 `left`
 textDecorationLine | `none`, `underline`, `line-through`, `underline line-through` | 对应 `CSS` [text-decoration-line](http://css.doyoe.com/properties/text-decoration/text-decoration-line.htm) 属性，但阉割了 `overline`, `blink` 取值
 textShadowColor | [&lt;color&gt;](#user-content-color) | 对应 `CSS` [text-shadow](http://css.doyoe.com/properties/text-decoration/text-shadow.htm) 属性中的颜色定义
-textShadowOffset | {<br>width:[&lt;number&gt;](#user-content-number),<br>height:[&lt;number&gt;](#user-content-number)<br>} | 对应 `CSS` 中的 [text-shadow](http://css.doyoe.com/properties/text-decoration/text-shadow.htm) 属性中的阴影偏移定义
+textShadowOffset | {<br>width:[&lt;number&gt;](#user-content-number),<br>height:[&lt;number&gt;](#user-content-number)<br>} | 对应 `CSS` [text-shadow](http://css.doyoe.com/properties/text-decoration/text-shadow.htm) 属性中的阴影偏移定义
 textShadowRadius | [&lt;number&gt;](#user-content-number) | 在 `CSS` 中，阴影的圆角大小取决于元素的圆角定义，不需要额外定义
 includeFontPadding<br /><sup>`Android`</sup> | [&lt;bool&gt;](#user-content-bool) | Android在默认情况下会为文字额外保留一些padding，以便留出空间摆放上标或是下标的文字。对于某些字体来说，这些额外的padding可能会导致文字难以垂直居中。如果你把textAlignVertical设置为center之后，文字看起来依然不在正中间，那么可以尝试将本属性设置为false
-textAlignVertical<br /><sup>`Android`</sup> | `auto`, `top`, `bottom`, `center` | 对应 `CSS` 中的 [vertical-align](http://css.doyoe.com/properties/text/vertical-align.htm) 属性，增加了 `auto` 取值，`center` 取代了 `middle`，并阉割了 `baseline, sub` 等值
-fontVariant<br /><sup>`iOS`</sup> | `small-caps`, `oldstyle-nums`, `lining-nums`, `tabular-nums`, `proportional-nums` | 对应 `CSS` 中的 [font-variant](http://css.doyoe.com/properties/font/font-variant.htm) 属性，但取值更丰富
-letterSpacing<br /><sup>`iOS`</sup> | [&lt;number&gt;](#user-content-number) | 对应 `CSS` 中的 [letter-spacing](http://css.doyoe.com/properties/text/letter-spacing.htm) 属性
-textDecorationColor<br /><sup>`iOS`</sup> | [&lt;color&gt;](#user-content-color) | 对应 `CSS` 中的 [text-decoration-color](http://css.doyoe.com/properties/text-decoration/text-decoration-color.htm) 属性
-textDecorationStyle<br /><sup>`iOS`</sup> | `solid`, `double`, `dotted`, `dashed` | 对应 `CSS` 中的 [text-decoration-style](http://css.doyoe.com/properties/text-decoration/text-decoration-style.htm) 属性，但阉割了 `wavy` 取值
-writingDirection<br /><sup>`iOS`</sup> | `auto`, `ltr`, `rtl` | 对应 `CSS` 中的 [direction](http://css.doyoe.com/properties/writing-modes/direction.htm) 属性，增加了 `auto` 取值
+textAlignVertical<br /><sup>`Android`</sup> | `auto`, `top`, `bottom`, `center` | 对应 `CSS` [vertical-align](http://css.doyoe.com/properties/text/vertical-align.htm) 属性，增加了 `auto` 取值，`center` 取代了 `middle`，并阉割了 `baseline, sub` 等值
+fontVariant<br /><sup>`iOS`</sup> | `small-caps`, `oldstyle-nums`, `lining-nums`, `tabular-nums`, `proportional-nums` | 对应 `CSS` [font-variant](http://css.doyoe.com/properties/font/font-variant.htm) 属性，但取值更丰富
+letterSpacing<br /><sup>`iOS`</sup> | [&lt;number&gt;](#user-content-number) | 对应 `CSS` [letter-spacing](http://css.doyoe.com/properties/text/letter-spacing.htm) 属性
+textDecorationColor<br /><sup>`iOS`</sup> | [&lt;color&gt;](#user-content-color) | 对应 `CSS` [text-decoration-color](http://css.doyoe.com/properties/text-decoration/text-decoration-color.htm) 属性
+textDecorationStyle<br /><sup>`iOS`</sup> | `solid`, `double`, `dotted`, `dashed` | 对应 `CSS` [text-decoration-style](http://css.doyoe.com/properties/text-decoration/text-decoration-style.htm) 属性，但阉割了 `wavy` 取值
+writingDirection<br /><sup>`iOS`</sup> | `auto`, `ltr`, `rtl` | 对应 `CSS` [direction](http://css.doyoe.com/properties/writing-modes/direction.htm) 属性，增加了 `auto` 取值
 
 <a name="dimension"></a>
 ### Dimension 尺寸（6）
