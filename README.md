@@ -24,6 +24,7 @@
     * [Number 数值](#user-content-number)
 * [Units 单位](#user-content-units)
     * [Pt 点](#user-content-pt)
+* [PixelRatio 像素密度](#user-content-pixelratio)
 
 
 <a name="properties"></a>
