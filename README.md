@@ -213,5 +213,6 @@ var styles = StyleSheet.create({
 <a name="pixelratio"></a>
 ## PixelRatio 像素密度
 
+在 `React-Native` 中，访问设备的像素密度的方法由 `PixelRatio` 类提供。
 
 未完待续。。。
