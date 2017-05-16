@@ -219,4 +219,13 @@ var styles = StyleSheet.create({
 
 通常一个应用都会运行在不同的设备上，而这些设备的像素密度各不相同。出于对产品体验的一致性，我们会要求不论是在哪种设备上，其边框厚度都应该是相同的。一个取得物理上的相同边框厚度的好方法就是用逻辑尺寸除以像素密度比：
 
+```
+var styles = StyleSheet.create({
+    box: {
+        borderWidth: 1 / PixelRatio.get(),
+        borderStyle: solid
+    }
+});
+```
+
 未完待续。。。
