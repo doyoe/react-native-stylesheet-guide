@@ -213,6 +213,10 @@ var styles = StyleSheet.create({
 <a name="pixelratio"></a>
 ## PixelRatio 像素密度
 
-在 `React-Native` 中，访问设备的像素密度的方法由 `PixelRatio` 类提供。
+在 `React-Native` 中，访问设备像素密度的方法由 `PixelRatio` 类提供。
+
+### 根据像素密度指定边框厚度
+
+如果应用运行在一个高像素密度的设备上，显示的图片也应当分辨率更高。一个取得缩略图的好规则就是将显示尺寸乘以像素密度比：
 
 未完待续。。。
