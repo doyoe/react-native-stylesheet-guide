@@ -210,4 +210,8 @@ var styles = StyleSheet.create({
 });
 ```
 
+<a name="pixelratio"></a>
+## PixelRatio 像素密度
+
+
 未完待续。。。
